@@ -1,0 +1,72 @@
+<!-- nav -->
+<app-nav> </app-nav>
+
+<!-- nav de items activos-->
+<app-items-nav></app-items-nav>
+
+<div class="MarginTopNav"></div>
+
+
+<!-- div full contenedor-->
+<section>  
+<div  class="cuadrado">
+
+   <div class="title-product">
+<h1>Mozzarella</h1>
+   </div>
+<br>
+ 
+<div class="grid-content"> 
+    <div class="img-product">
+        <picture>
+            <img src="../assets/img/pizzas/mozzarella.png" alt="mozarella" class="Pizza"  >
+        </picture>
+  </div>
+
+<!--descripcion del producto-->
+
+
+<div class="content-product">
+  <p>Mozarella | Orégano | Aceitunas | Aceite de Oliva</p>
+  <br>
+  <h2> 8 porciones</h2>
+</div>
+<div id="clear"></div>
+
+<div class="gridContent-2">
+    <div class="box-cant">
+        <p class="cant">cantidad </p>
+        
+    </div>
+
+    
+        <div class="selector" (click)="mostrarUl()"> 1
+              
+                <ul *ngIf ="listado">
+                  <li><a href="#">Primera opción</a></li>
+                  <li><a href="#">Segunda opción</a></li>
+                  <li><a href="#">Tercera opción</a></li>
+                </ul>
+              
+          </div>
+
+    
+
+<div class="price">
+        <p> $</p>
+</div>
+
+<div class="total">
+    <p> 1234</p>
+     </div>
+</div>
+
+</div>    
+
+
+</div>
+       
+</section>
+
+
+    

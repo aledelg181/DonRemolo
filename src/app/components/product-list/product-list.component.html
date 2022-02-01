@@ -1,0 +1,106 @@
+
+
+<body>
+  <app-nav> </app-nav>  
+<app-items-nav> </app-items-nav>
+    
+  
+  <div class="MarginTopNav"></div>
+
+  <section>
+    <div class="cuadrado">  
+      <div class="imagen">
+        <a [routerLink]= "['/pedido']">
+        <picture>
+          
+            <img src="../assets/img/pizzas/mozzarella.png" alt="Pizza" class="Pizza" width={50} height={50} />
+        </picture>
+        </a>
+      </div>
+       
+      <div class="contenido ">
+        <h2>Mozzarella</h2>
+        <p>Mozarella | Orégano | Aceitunas | Aceite de Oliva</p>
+        <h4> $1134 </h4>
+      </div>
+      <div id="clear"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cuadrado">
+      <div class="imagen">
+        <picture>
+          <img src="../assets/img/pizzas/especial.png" alt="Pizza" class="Pizza" width={50} height={50} />
+        </picture>
+      </div>
+      <div class="contenido">
+        <h2>Especial</h2>
+        <p>Mozarella | Jamon Cocido | Pimiento Rojo | Aceitunas </p>
+        <h4> $1134 </h4>
+      </div>
+      <div id="clear"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cuadrado">
+      <div class="imagen">
+        <picture>
+          <img src="../assets/img/pizzas/fugazza.png" alt="Pizza" class="Pizza" width={50} height={50} />
+        </picture>
+      </div>
+      <div class="contenido">
+        <h2>Fugazza</h2>
+        <p>Mozarella | Orégano | Cebolla | Aceitunas </p>
+        <h4> $1134 </h4>
+      </div>
+      <div id="clear"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cuadrado">
+      <div class="imagen">
+        <picture>
+          <img src="../assets/img/pizzas/calabreza.png" alt="Pizza" class="Pizza" width={50} height={50} />
+        </picture>
+      </div>
+      <div class="contenido">
+        <h2>Calabreza</h2>
+        <p>Mozarella | Salsa | Provolone | Longaniza </p>
+        <h4> $1134 </h4>
+      </div>
+      <div id="clear"></div>
+      </div>
+  </section>
+
+  <section>
+    <div class="cuadrado">
+      <div class="imagen">
+        <picture>
+          <img src="../assets/img/pizzas/napolitana.png" alt="Pizza" class="Pizza" width={50} height={50} />
+        </picture>
+      </div>
+      <div class="contenido">
+        <h2>Napolitana</h2>
+        <p>Mozarella | Salsa | Tomates | Aceitunas </p>
+        <h4> $1134 </h4>
+      </div>
+      <div id="clear"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="fondoCarrito">
+      <a href="404.html" class="botonCarrito">
+        <Picture>
+          <img src="../assets/img/Carrito.png" alt="carrito" class="carrito" />
+        </Picture>
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+<router-outlet></router-outlet>
